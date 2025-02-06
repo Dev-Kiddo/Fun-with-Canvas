@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>HTML5 Canvas | Prasanth S</title>
+
+    <style>
+      html,
+      body {
+        margin: 0;
+      }
+
+      .container {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .label {
+        /* width: 40%; */
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        transition: all 0.15s;
+        background: moccasin;
+        padding: 10px;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <canvas id="draw" width="800" height="800"></canvas>
+    </div>
+
+    <div class="label" id="label">
+      <p>🎨Tip: Start scribbling anywhere on the canvas to unleash your creativity!</p>
+      <p>🐁Use your mouse to draw freely.</p>
+      <p>✨Try This: Hold and drag for colorful strokes!</p>
+    </div>
+
+    <!-- script -->
+    <script src="app.js"></script>
+  </body>
+</html>
