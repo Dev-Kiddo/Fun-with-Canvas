@@ -21,8 +21,6 @@
 <h4>🔗 Explore the live version of this project here:</h4>
 <h4><a href=" https://dev-kiddo.github.io/Fun-with-Canvas/">Fun with Canvas 🎨✨</a></h4>
 
----
-
 <h3>📌 Features</h3>
 
 <ul>
